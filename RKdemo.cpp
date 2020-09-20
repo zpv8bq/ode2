@@ -42,8 +42,8 @@ int main(int argc, char **argv){
 
   TCanvas *c1 = new TCanvas("c1","DEQ solutions",dw,dh);
 
-  //tg1.SetMarkerSize(0.02*dh/8);  // size scale: 1 = 8 pixels, so here we choose the size to be 2% of the window height
-  //tg2.SetMarkerSize(0.02*dh/8);
+  tg1.SetMarkerSize(0.015*dh/8);  // size scale: 1 = 8 pixels, so here we choose the size to be 1.5% of the window height
+  tg2.SetMarkerSize(0.015*dh/8);
   tg1.SetMarkerStyle(kFullTriangleUp);
   tg2.SetMarkerStyle(kFullTriangleDown);
   tg1.SetMarkerColor(kRed);
